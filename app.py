@@ -15,7 +15,7 @@ async def on_ready():
 async def on_message(message):
     if message.author.bot: return
     if message.content.startswith('r!c'):
-        if message.author.id == 480240821623455746:
+        if message.author.id == 480240821623455746: #ID
             msg=message.content
             arg=msg.split(" ")
             args=arg[1:]
