@@ -5,7 +5,7 @@ import datetime
 
 app = commands.Bot(command_prefix = 'r!')
 
-
+TOKEN = ''
 
 @app.event
 async def on_ready():
