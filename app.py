@@ -5,7 +5,7 @@ import datetime
 
 app = commands.Bot(command_prefix = 'r!')
 
-TOKEN = ''
+
 
 @app.event
 async def on_ready():
@@ -14,7 +14,7 @@ async def on_ready():
 @app.event
 async def on_message(message):
     if message.author.bot: return
-    if message.content.startswith('r!c'):
+    if message.content.startswith('py!compile'):
         if message.author.id == 480240821623455746:
             msg=message.content
             arg=msg.split(" ")
