@@ -3,7 +3,7 @@ from discord.ext import commands
 import inspect
 import datetime
 
-app = commands.Bot(command_prefix = 'r!')
+app = commands.Bot(command_prefix = 'py!')
 
 TOKEN = ''
 
